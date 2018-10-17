@@ -1,6 +1,6 @@
 class Cow implements Animal 
 {     
-  private String mySound, myType;
+  protected String mySound, myType;
   Cow(){
   mySound = "Moo";
   myType = "Cow";
